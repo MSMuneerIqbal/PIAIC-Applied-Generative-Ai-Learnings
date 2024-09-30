@@ -23,7 +23,6 @@ class Library:
         self.books.append(book)
         print(f"Added: {book}")
         self.save_data()
-
     def remove_book(self, isbn):
         for book in self.books:
             if book.isbn == isbn:
