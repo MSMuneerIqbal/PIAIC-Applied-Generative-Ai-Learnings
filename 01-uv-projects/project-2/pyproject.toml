@@ -1,0 +1,15 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+project = "project2:main"
+new = "project2:new"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
